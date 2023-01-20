@@ -73,6 +73,22 @@ console.log(text.substring(15,5))
 console.log(text.substring(15,20));
 
 
+let cambio = "A quien madruga, nadie le hace el desayuno";
+console.log(cambio.split());
+console.log(cambio.split(' ', 3));
+console.log(cambio.split(', '))
+console.log(cambio.split('',10))
+
+
+let unir = ['J','a','v','a','S','c','r','i','p','t'];
+
+console.log(unir.join());
+console.log(unir.join(''));
+console.log(unir.join('. '));
+console.log(unir.join('+'));
+
+
+
 
 
 
